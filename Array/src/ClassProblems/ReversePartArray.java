@@ -1,3 +1,5 @@
+package ClassProblems;
+
 import java.util.Arrays;
 
 public class ReversePartArray {

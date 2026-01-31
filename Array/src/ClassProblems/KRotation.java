@@ -1,3 +1,5 @@
+package ClassProblems;
+
 public class KRotation {
 
     public static void rotateArrayKtimes(int[] arr, int k) {
