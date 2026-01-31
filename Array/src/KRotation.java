@@ -3,7 +3,7 @@ public class KRotation {
     public static void rotateArrayKtimes(int[] arr, int k) {
         int n = arr.length;
         k = k % n;
-        if (k < 0) {
+        if (k < 0) { // if k is negative add arr.length i.e n to k
             k = k + n;
         }
         ReversePartArray.reversePartArray(arr, 0, n-1);
